@@ -1,7 +1,7 @@
-import { calibration } from "./day1/s1";
+import { game } from "./day2/s2";
 
 async function main() {
-  console.log(await calibration());
+  console.log(await game());
 }
 
 await main();
