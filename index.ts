@@ -1,7 +1,7 @@
-import { game } from "./day2/s2";
+import { parts } from "./day3/s1";
 
 async function main() {
-  console.log(await game());
+  console.log(await parts());
 }
 
 await main();
