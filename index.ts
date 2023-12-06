@@ -1,7 +1,7 @@
-import { parts } from "./day3/s1";
+import { gears } from "./day3/s2";
 
 async function main() {
-  console.log(await parts());
+  console.log(await gears());
 }
 
 await main();
