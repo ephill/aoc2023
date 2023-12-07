@@ -1,7 +1,7 @@
-import { cardPoints } from "./day4/s1";
+import { countCards } from "./day4/s2";
 
 async function main() {
-  console.log(await cardPoints());
+  console.log(await countCards());
 }
 
 await main();
