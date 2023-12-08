@@ -1,7 +1,7 @@
-import { almanac } from "./day5/s2";
+import { races } from "./day6/s2";
 
 async function main() {
-  console.log(await almanac());
+  console.log(await races());
 }
 
 await main();
