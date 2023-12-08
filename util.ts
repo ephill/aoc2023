@@ -5,3 +5,12 @@ export const logJson = (obj: any) => {
 export const log = (obj: any) => {
   console.log(obj);
 };
+
+export const logDateTime = (date: number | Date | undefined) => {
+  log(
+    Intl.DateTimeFormat("en", {
+      dateStyle: "short",
+      timeStyle: "long",
+    }).format(Date.now())
+  );
+};

@@ -1,4 +1,4 @@
-import { almanac } from "./day5/s1";
+import { almanac } from "./day5/s2";
 
 async function main() {
   console.log(await almanac());
